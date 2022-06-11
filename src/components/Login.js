@@ -18,7 +18,7 @@ function Login() {
 
     useEffect(() => {
         if(isSuccess) {
-            navigate("/profile");
+            navigate("/home");
         }
         // console.log(isError)
         // console.log(errMsg)
